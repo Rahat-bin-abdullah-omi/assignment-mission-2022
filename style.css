@@ -1,0 +1,170 @@
+/* BASE */
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #3e3e3e;
+}
+h1 {
+  font-size: 50px;
+  line-height: 30px;
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 30px;
+}
+.flex-container {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+  margin: 90px 0 0 150px;
+}
+.half-width h1 {
+  margin-left: 15px;
+}
+.half-width img {
+  width: 70%;
+  margin-left: 50px;
+}
+.half-width h4 {
+  font-weight: 200;
+  position: relative;
+  margin-top: 100px;
+}
+#red-stick {
+  border-left: 3px solid #ff5959;
+  border-radius: 3px;
+  border-image-slice: 1;
+}
+
+.orange-color {
+  color: #ffad5a;
+}
+.heading-font {
+  font-family: "Yeseva One", cursive;
+}
+.link-button {
+  text-decoration: none;
+  background-color: #ff5959;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 7px;
+  font-weight: 500;
+  margin-top: 5px;
+  position: absolute;
+}
+
+/* CARDS SECTION */
+
+.headline {
+  text-align: center;
+}
+.mission-self .card {
+  padding: 0px 150px;
+  border-radius: 10px;
+}
+.mission-self .card img {
+  width: 30%;
+}
+#mission {
+  background-color: #edf5f6;
+  border-radius: 30px;
+  padding: 20px 20px;
+}
+#vision {
+  background-color: rgba(255, 192, 203, 0.2);
+  border-radius: 30px;
+  padding: 20px 20px;
+  margin-left: 25px;
+}
+#goals {
+  background-color: hsla(60, 100%, 50%, 0.2);
+  border-radius: 30px;
+  padding: 20px 20px;
+  margin-left: 25px;
+}
+/* MODULE 4 */
+.width-small {
+  width: 45%;
+}
+.width-small img {
+  width: 65%;
+  padding-left: 150px;
+}
+.width-large {
+  width: 50%;
+  padding-top: 20px;
+}
+.width-large h2 {
+  line-height: 20px;
+}
+
+.devsec {
+  padding: 70px 0px 20px 0px;
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position-x: 20px;
+  background-position-y: 150px;
+}
+.community {
+  padding: 70px 0px 50px 80px;
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position: right;
+  background-position-x: 1600px;
+  background-position-y: 10px;
+}
+
+/* HOMEWORK */
+
+.self {
+  padding-bottom: 200px;
+  background-image: url(images/shapes/shape-7.png);
+  background-repeat: no-repeat;
+  background-size: 450px;
+  background-position: right;
+  background-position-x: 155px;
+  background-position-y: 60px;
+}
+.self .half-width img {
+  border-radius: 40px;
+}
+.self .half-width h1 {
+  margin-left: 0px;
+}
+.aboutme {
+  width: 30%;
+}
+.about-color {
+  color: cornflowerblue;
+}
+
+/* FOOTER  */
+
+.footer {
+  width: 100%;
+  background-color: #0b0d17;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  padding: 20px 0px;
+  letter-spacing: 2px;
+}
+.footer h3 {
+  font-family: "Lobster", cursive;
+}
+.footer p {
+  font-size: 14px;
+}
+#footer-color {
+  color: #ff5959;
+}
+.lime {
+  color: lime;
+}
